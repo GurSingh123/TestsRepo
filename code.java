@@ -1,9 +1,5 @@
 import java.util.Scanner;
-
-public class Code {
-
-public class BasicJava {
-
+public class JavaExample {
     static int fact(int num) {
 	int factorial;
 
@@ -24,7 +20,7 @@ public class BasicJava {
 	rows = scanner.nextInt();
 	scanner.close();
 
-	System.out.println("Pascal Triangle:");
+	System.out.println("Basic learning of Triangle:");
 	for(i = 0; i < rows; i++) {
 		for(j = 0; j < rows-i; j++){
 			System.out.print(" ");
@@ -36,3 +32,4 @@ public class BasicJava {
  	}
     }
 }
+

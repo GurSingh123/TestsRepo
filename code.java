@@ -1,5 +1,9 @@
 import java.util.Scanner;
+
 public class Code {
+
+public class BasicJava {
+
     static int fact(int num) {
 	int factorial;
 
